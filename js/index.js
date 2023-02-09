@@ -78,7 +78,6 @@ let yPos = enemy.offsetTop + speed;
 if (xPos >= 0 && xPos <= 450 && yPos >= 0 && yPos <= 450) {
 enemy.style.left = `${xPos}px`;
 enemy.style.top = `${yPos}px`;
-
 } else {
 gameContainer.removeChild(enemy);
 }
